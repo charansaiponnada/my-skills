@@ -1,5 +1,5 @@
 ---
-name: name: material-you-kit
+name: material-you-kit
 description: Use this skill whenever the user wants to build, redesign, restyle, or "clean up" a UI using Google's Material Design 3 (M3 / "Material You") — for web (React/MUI, plain HTML/CSS, Vue) or mobile (Flutter, Jetpack Compose). Trigger on phrases like "material design", "M3", "material you", "redesign this UI", "use MUI/Material UI", "make this look like a Google app", or any request to apply Material components, color tokens, typography scale, or elevation to an existing or new interface. Also trigger when the user shares a screenshot or component and wants it converted to Material 3 styling. Covers component selection, the M3 color/type/shape/elevation token system, and stack-specific implementation (MUI v6, Material Web Components, Flutter, Jetpack Compose, or hand-rolled CSS tokens).
 ---
 

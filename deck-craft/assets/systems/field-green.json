@@ -1,0 +1,41 @@
+{
+  "name": "field-green",
+  "notes": "Calm, grounded. Health, sustainability, education, community projects. Dated 2026-11.",
+  "fonts": {
+    "heading": "Bookman Old Style",
+    "body": "Calibri"
+  },
+  "colors": {
+    "ink": "12261C",
+    "paper": "FFFFFF",
+    "muted": "55695C",
+    "accent": "B8E04A",
+    "accent_on_light": "2F6B3F",
+    "accent2": "E07A1F",
+    "on_dark": "F2F7F1",
+    "on_dark_muted": "A9BFAF",
+    "card_light": "EAF2EC",
+    "card_dark": "1F3D2B",
+    "dark_bg": [
+      "12261C",
+      "24462F"
+    ],
+    "light_bg": [
+      "FFFFFF",
+      "E9F1EB"
+    ]
+  },
+  "glow": {
+    "x": 0.12,
+    "y": 0.95,
+    "color": "B8E04A",
+    "radius": 0.55,
+    "strength": 0.2
+  },
+  "grain": 0.02,
+  "sizes": {
+    "title": 34,
+    "cover": 42,
+    "statement": 36
+  }
+}

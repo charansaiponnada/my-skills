@@ -1,0 +1,23 @@
+{
+  "title": "Intelli-Credit pitch",
+  "author": "Example Team",
+  "slides": [
+    { "type": "title", "kicker": "Hackathon final", "title": "Credit decisions that explain themselves", "subtitle": "AI risk analysis that shows its evidence, not just a score", "meta": "Example Team · Demo day", "notes": "Open with the one-line promise." },
+    { "type": "statement", "title": "Lenders reject good borrowers because they cannot see why a score is low", "emphasis": "cannot see why", "support": "Thin-file applicants lose out most." },
+    { "type": "stat", "title": "Our model beat the baseline on every metric we tracked", "stats": [
+      { "value": "12 pts", "label": "Recall gain", "note": "Over the logistic baseline on held-out data" },
+      { "value": "94.2%", "label": "AUC", "note": "Five-fold cross-validation" },
+      { "value": "3 min", "label": "Per application", "note": "Down from a manual review" } ] },
+    { "type": "split", "title": "Every decision ships with its evidence trail", "bullets": ["Pulls signals from bank statements and filings", "Links each risk flag to a source line", "Lets an analyst override with a reason"], "callout_label": "Why it matters", "callout": "An analyst can defend the decision to a regulator." },
+    { "type": "compare", "title": "Black-box scoring versus an evidence-first pipeline", "columns": [
+      { "heading": "Before", "bullets": ["One opaque score", "No audit trail", "Slow manual checks"] },
+      { "heading": "With Intelli-Credit", "bullets": ["Score plus cited evidence", "Full audit trail", "Review in minutes"] } ] },
+    { "type": "chart", "title": "Recall improves as more document types are added", "chart": { "type": "bar", "labels": ["Statements", "+ Filings", "+ News"], "series": [ { "name": "Recall", "values": [71, 80, 83] } ] }, "takeaway": "Filings add the biggest jump.", "source": "Held-out test set" },
+    { "type": "steps", "title": "Four steps from documents to a decision", "steps": [
+      { "title": "Ingest", "text": "Parse statements and filings" },
+      { "title": "Extract", "text": "Pull risk signals with sources" },
+      { "title": "Score", "text": "Combine signals into a rating" },
+      { "title": "Explain", "text": "Show evidence for each flag" } ] },
+    { "type": "closing", "title": "Next: pilot with a partner lender", "points": ["Validate on live applications", "Add regional-language documents"], "contact": "team@example.com" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "wildcard-terminal",
+  "notes": "Deliberately unusual: monospaced headings, acid accent. Hackathons, dev tools, demo days. Wide face: keep titles short. Dated 2026-11.",
+  "fonts": {
+    "heading": "Courier New",
+    "body": "Calibri"
+  },
+  "colors": {
+    "ink": "0F0F10",
+    "paper": "FFFFFF",
+    "muted": "5A5A62",
+    "accent": "C6FF3D",
+    "accent_on_light": "4F6B00",
+    "accent2": "FF2E93",
+    "on_dark": "FFFFFF",
+    "on_dark_muted": "A0A0AA",
+    "card_light": "F0F2E8",
+    "card_dark": "202024",
+    "dark_bg": [
+      "0F0F10",
+      "1C1C20"
+    ],
+    "light_bg": [
+      "FFFFFF",
+      "F1F3EA"
+    ]
+  },
+  "grain": 0.03,
+  "sizes": {
+    "title": 28,
+    "cover": 36,
+    "statement": 30,
+    "quote": 26,
+    "perLine": 26
+  }
+}

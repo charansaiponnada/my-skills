@@ -1,0 +1,41 @@
+{
+  "name": "editorial-ink",
+  "notes": "Light editorial, high contrast, one hot accent. Pitches, reports, argument-led talks. Dated 2026-11.",
+  "fonts": {
+    "heading": "Century Schoolbook",
+    "body": "Calibri"
+  },
+  "colors": {
+    "ink": "111111",
+    "paper": "FFFFFF",
+    "muted": "5E5E66",
+    "accent": "FF4D4D",
+    "accent_on_light": "C8102E",
+    "accent2": "111111",
+    "on_dark": "FFFFFF",
+    "on_dark_muted": "B4B4BC",
+    "card_light": "F1F1F4",
+    "card_dark": "26262B",
+    "dark_bg": [
+      "111111",
+      "2A2A30"
+    ],
+    "light_bg": [
+      "FFFFFF",
+      "EFEFF3"
+    ]
+  },
+  "glow": {
+    "x": 0.9,
+    "y": 0.1,
+    "color": "FF4D4D",
+    "radius": 0.5,
+    "strength": 0.18
+  },
+  "grain": 0.015,
+  "sizes": {
+    "title": 34,
+    "cover": 44,
+    "statement": 38
+  }
+}

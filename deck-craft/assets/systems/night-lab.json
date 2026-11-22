@@ -1,0 +1,36 @@
+{
+  "name": "night-lab",
+  "fonts": {
+    "heading": "Cambria",
+    "body": "Calibri"
+  },
+  "colors": {
+    "ink": "0B1020",
+    "paper": "FFFFFF",
+    "muted": "5B6480",
+    "accent": "3DDCFF",
+    "accent_on_light": "0B7FA3",
+    "accent2": "FFB454",
+    "on_dark": "F1F4FB",
+    "on_dark_muted": "9AA4C7",
+    "card_light": "EEF1F8",
+    "card_dark": "1B2347",
+    "dark_bg": [
+      "0B1020",
+      "182044"
+    ],
+    "light_bg": [
+      "FFFFFF",
+      "EEF1F8"
+    ]
+  },
+  "glow": {
+    "x": 0.88,
+    "y": 0.08,
+    "color": "3DDCFF",
+    "radius": 0.55,
+    "strength": 0.28
+  },
+  "grain": 0.02,
+  "notes": "Dark technical. AI/ML demos, research talks, dev tools. Dated 2026-11."
+}

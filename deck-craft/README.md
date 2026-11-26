@@ -21,14 +21,9 @@ It is a design and process layer on top of Anthropic's built-in `pptx` skill, no
 
 **Claude Code:**
 ```bash
-git clone https://github.com/charansaiponnada/my-skills ~/.claude/skills/deck-craft
+git clone <y ~/.claude/skills/deck-craft
 ```
 Restart the session. The skill name must match the folder name (`deck-craft`).
-
-**Agent Skills CLI:**
-```bash
-npx skills add charansaiponnada/my-skills@deck-craft -g -y
-```
 
 ## Use it
 
